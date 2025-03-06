@@ -27,3 +27,5 @@ public class CaffeineCacheConfig {
                 .expireAfterWrite(60, TimeUnit.SECONDS);
     }
 }
+
+
