@@ -1,10 +1,14 @@
 package com.example.project11.response;
 
 import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Getter
+@NoArgsConstructor
 public class ErrorResponse {
 
     private int status;

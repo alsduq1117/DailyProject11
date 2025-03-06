@@ -14,3 +14,4 @@ public abstract class CustomException extends RuntimeException{
 
     public abstract int getStatusCode();
 }
+

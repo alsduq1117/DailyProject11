@@ -3,15 +3,17 @@ package com.example.project11.response;
 import com.example.project11.domain.Post;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
+@NoArgsConstructor
 public class PostResponse {
 
-    private final Long id;
+    private Long id;
 
-    private final String title;
+    private String title;
 
-    private final String content;
+    private String content;
 
 
     @Builder
