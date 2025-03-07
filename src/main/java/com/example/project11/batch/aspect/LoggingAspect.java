@@ -1,4 +1,4 @@
-package com.example.project11.aspect;
+package com.example.project11.batch.aspect;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
